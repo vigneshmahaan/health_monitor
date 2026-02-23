@@ -1,6 +1,7 @@
 export interface SensorData {
     temperature_f: number;
     pulse_bpm: number;
+    spo2_percent: number;
     air_quality_ppm: number;
     ecg_wave: number[];
     timestamp: string;
